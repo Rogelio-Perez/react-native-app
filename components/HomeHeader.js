@@ -19,7 +19,7 @@ const HomeHeader = ({ onSearch }) => {
       >
         <Image
           source={assets.logo}
-          resizeMethod='contain'
+          resizeMode='contain'
           style={{
             width: 90,
             height: 25,
@@ -59,7 +59,7 @@ const HomeHeader = ({ onSearch }) => {
             color: COLORS.white,
           }}
         >
-          Hello, Veronica 👋
+          Hello, Roger 👋
         </Text>
         <Text
           style={{
